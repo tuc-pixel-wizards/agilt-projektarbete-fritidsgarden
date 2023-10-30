@@ -36,6 +36,7 @@ background-color:#C783C9;
 margin: 5px 60px;
 padding: 30px 5px;
 padding-top: 45px;
+border-radius: 20px;
 }
 
 .hero-video {
@@ -94,6 +95,10 @@ p, li {
 
 #logo {
    font-size: 80px;
+}
+
+.images {
+   border-radius: 20px;
 }
 
 @media screen and (min-width: 600px) {
