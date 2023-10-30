@@ -5,11 +5,13 @@
     <title>Fritidsgården</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Indie+Flower?query=indie+flower" />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Indie+Flower?query=indie+flower">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Qwigley&family=Source+Sans+3:ital,wght@0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.google.com/?query=nosifer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
     <meta name="author" content="Pixel Wizards">
     <link rel="icon" href="img/faveicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -19,7 +21,7 @@
     
     <header class="header"> 
  
-      <p> Dojan    </p>  
+        <p>Dojan</p>  
   
     </header>
 
@@ -29,45 +31,61 @@
 
 
     <section class="hero">
-
+        <h1 class="hero-text"> Fritidsgården </h1>
         <video class="hero-video"> <!-- The Background video should have a width of 100% -->
             <source src="img/skateboard_-_2295 (540p).mp4" type="video/mp4">
             <source src="img/skateboard_-_2295 (540p).mp4" type="video/ogg">
         </video> 
-
-        <h2 class="hero-text"> Fritidsgården </h2>
-
+        <img class="skater" src="img/Skärmklipp.PNG" alt="Skater">
     </section>
 
   
 
     <main>
 
-         
     <section> <!-- Three buttons -->
         
         <h2> Kommande events </h2>  
 
-        <div class="boxes"> 
+        <section class="boxes">
+            <h3>HipHop-Battle</h3>
+            <p>27/10</p>
+        </section>
+
+        <section class="boxes">
+            <h3 id="nosifer">Halloween maskerad</h3>
+            <p>31/10</p>
+        </section>
+
+        <section class="boxes">
+            <h3>Basket turnering</h3>
+            <p>15/11</p>
+        </section>
+
+        <!--        
+
+                <div class="boxes"> 
         
-                <button class="button">  <!-- Button1 -->
+                <button class="button"> 
                     <p class="date"> 27/10 </p> 
                     <p class="event"> HipHop-battle</p> 
                 </button>
 
                             
-                <button class="button">  <!-- Button2 -->
+                <button class="button-halloween">  
                     <p class="date"> 31/10 </p> 
                     <p class="event"> HALLOWEEN MASKERAD</p> 
                 </button>
 
                                         
-                <button class="button">  <!-- Button3 -->
+                <button class="button"> 
                     <p class="date"> 15 /11 </p> 
                     <p class="event"> Basket Turnering </p> 
                 </button>
 
-        </div>
+        </div> 
+        -->
+
 
     </section>
 
@@ -87,11 +105,11 @@
          
 
          <div  class="main-images">
-            <img src="img/audience-1835431_1280.jpg" alt="photo" width="100">
+            <img src="img/audience-1835431_1280.jpg" alt="gitarrist" width="200">
         </div>
 
         <div  class="main-images">
-            <img src="img/billiards-5489526_1280.jpg" alt="photo" width="100">
+            <img src="img/pool-1274749_1280.jpg" alt="biljard" width="200">
         </div>
 
 
@@ -101,7 +119,7 @@
  
     <section class="main-info"> 
         
-        <h2> Visste Vad finns det att göra på fritidsgården? </h2>  
+        <h2>Vad finns det att göra på fritidsgården? </h2>  
 
         <p class=""> 
             Fritidsgården är en mötesplats där man träffar sina kompisar och lär känna nya ungdomar.
@@ -120,11 +138,11 @@
          
 
          <div  class="main-images">
-            <img src="img/audience-1835431_1280.jpg" alt="photo" width="100">
+            <img src="img/basketball-2416463_1280.jpg" alt="basketball" width="200">
         </div>
 
-        <div  class="main-images">
-            <img src="img/billiards-5489526_1280.jpg" alt="photo" width="100">
+        <div class="main-images">
+            <img src="img/graph-4272558_1280.jpg" alt="graffiti" width="200">
         </div>
 
 
@@ -136,6 +154,7 @@
     <section class="openhours"> 
         
        <h2> Öppettider </h2>
+       <br>
        <p> Måndag: 17.00 – 21.00 </p>
        <p> Tisdag: 14.00 – 16.30</p>
        <p> Onsdag: 14.00 – 16.30 </p>
@@ -144,40 +163,31 @@
 
     </section>
 
-
- 
-
-
     </main>
-  
-
-
 
     <footer>
 
-    <section>
+        <section>
 
-        <p>
-            Kontakt <br>
-            0535-12 32 43 <br>
-            fritidsgarden@gronviksdal.se
-        </p>
+            <p>
+                Kontakt <br>
+                0535-12 32 43 <br>
+                fritidsgarden@gronviksdal.se
+            </p>
 
-        <p>
-         <h1>Dojan</h1>
-        </p>
+            <p class="header">
+            Dojan
+            </p>
 
-        <p>
-            Besöksadress <br>
-             Björkgatan 22 <br>
-             26545 Grönviksdal <br>
-        </p>
+            <p>
+                Besöksadress <br>
+                Björkgatan 22 <br>
+                26545 Grönviksdal <br>
+            </p>
 
-    </section>
+        </section>
         
-
     </footer>
-
 
   </body>
 </html>

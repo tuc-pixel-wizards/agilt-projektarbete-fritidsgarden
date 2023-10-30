@@ -3,9 +3,9 @@
     margin: 0;
     overflow-x: hidden;
     box-sizing: border-box;
+    text-align: center;
  }
 
- 
 .header {
     background-color: #C783C9;
     text-align: center;
@@ -15,7 +15,57 @@
     padding: 15px;
     }
     
+    footer {
+      background-color: #C783C9;
+      padding-top: 20px;
+      font-family: 'Indie Flower', cursive;
+    }
+
+    main {
+      background-image: linear-gradient(#eebdd2, #E379A7);
+      font-family: 'Indie Flower', cursive;
+    }
+
+    h1, h2 {
+      font-family: 'Indie Flower', cursive;
+      margin-top: 20px;
+    }
+
+    .boxes {
+      background-color:#C783C9;
+      margin: 5px 60px;
+      padding: 30px 5px;
+    }
+
+    .hero-video {
+      display: none;
+    }
+
+    .hero-text {
+      font-size: 35px;
+      color: white;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #nosifer {
+      font-family: 'Nosifer', sans-serif;
+    }
+
+    /* >>>>>>>>>>might need a better fix to remove this white line<<<<< */
+    .hero {
+      margin: -0.5em;
+    }
   
+    .openhours {
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
 
 
     @media screen and (max-width: 600px) {
