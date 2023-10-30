@@ -80,6 +80,9 @@ display: none;
    margin-bottom: 20px;
 }
 
+figure {
+   padding-top: 20px;
+}
       
 
 @media screen and (min-width: 600px) {
@@ -89,9 +92,32 @@ display: none;
     margin: auto;
   }
   
+  .boxes {
+   margin: auto;
+   width: 30%;
+   margin-top: 5%;
+  }
 }
 
 
 @media screen and (min-width: 992px) {
   
+   .hero-video {
+      display: block;
+      width: 100%;
+      height: 20%;
+   }
+
+   #tablet-header {
+      display: none;
+   }
+
+   .boxes {
+      width: 10%;
+      margin-top: 1%;
+   }
+
+   .main-info {
+      width: 40%;
+   }
 }
