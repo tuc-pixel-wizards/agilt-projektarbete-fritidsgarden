@@ -209,15 +209,18 @@ p, li {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-      align-items: center;
-      
-         & h2 {
-            flex-shrink: 0;
-            flex-basis: 100%;
-         }
-
-         & .flex-width {
-            width: 33%;
-         } 
+      align-items: center; 
    }
+
+   /*styling h2 with the class flex*/
+   .flex h2 {
+      flex-shrink: 0;
+      flex-basis: 100%;
+   }
+
+   /*setting width for the flex*/
+   .flex-width {
+      width: 33%;
+   }
+
 }
