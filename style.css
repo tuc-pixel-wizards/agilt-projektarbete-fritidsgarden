@@ -1,46 +1,46 @@
 * { 
-padding: 0;
-margin: 0;
-overflow-x: hidden;
-box-sizing: border-box;
-text-align: center;
+   padding: 0;
+   margin: 0;
+   overflow-x: hidden;
+   box-sizing: border-box;
+   text-align: center;
 }
 
 .header {
-background-color: #C783C9;
-text-align: center;
-color: white;
-font-size: 50px;
-font-family: 'Qwigley', cursive;
-padding: 15px;
+   background-color: #C783C9;
+   text-align: center;
+   color: white;
+   font-size: 50px;
+   font-family: 'Qwigley', cursive;
+   padding: 15px;
 }
 
 footer {
    background-color: #C783C9;
    padding-top: 20px;
    font-family: 'Indie Flower', cursive;
-   }
+}
 
 main {
-background-image: linear-gradient(#eebdd2, #E379A7);
-font-family: 'Indie Flower', cursive;
+   background-image: linear-gradient(#eebdd2, #E379A7);
+   font-family: 'Indie Flower', cursive;
 }
 
 h1, h2 {
-font-family: 'Indie Flower', cursive;
-margin-top: 20px;
+   font-family: 'Indie Flower', cursive;
+   margin-top: 20px;
 }
 
 .boxes {
-background-color:#C783C9;
-margin: 5px 60px;
-padding: 30px 5px;
-padding-top: 45px;
-border-radius: 20px;
+   background-color:#C783C9;
+   margin: 5px 60px;
+   padding: 30px 5px;
+   padding-top: 45px;
+   border-radius: 20px;
 }
 
 .hero-video {
-display: none;
+   display: none;
 }
 
 .hero {
@@ -62,22 +62,22 @@ display: none;
 
 #tablet-header {
    display: block;
-   height: auto;
+   height: 40vh;
    width: 100%;
    object-fit: cover;
    margin: 0;
    padding: 0;
 }
 
-   #nosifer {
+#nosifer {
    font-family: 'Nosifer', sans-serif;
 }
 
-   .openhours {
+.openhours {
    margin-bottom: 20px;
 }
 
-   p {
+p {
    margin-bottom: 20px;
 }
 
@@ -123,20 +123,18 @@ p, li {
 
 @media screen and (min-width: 992px) {
   
-
-
    #tablet-header {
       display: none;
    }  
 
    .main-info {
-      width: 40%;
+      width: 800px;
    }
 
    .events {
       display: flex;
       flex-wrap: wrap;
-      width: 40%;
+      width: 800px;
       margin:auto;
    }
 
@@ -165,13 +163,29 @@ p, li {
    height: 50vh;
    object-fit: cover;
    position: absolute;
-}
+   }
 
-.main-images {
-   display: flex;
-}
+   .main-images {
+      display: flex;
+   }
 
-.images {
-   margin: 1%;
-}
+   .images {
+      margin: 1%;
+   }
+
+   .flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      
+         & h2 {
+            flex-shrink: 0;
+            flex-basis: 100%;
+         }
+
+         & .flex-width {
+            width: 33%;
+         } 
+   }
 }
