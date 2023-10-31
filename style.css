@@ -99,6 +99,7 @@ p, li {
 
 .images {
    border-radius: 20px;
+   width: 80%;
 }
 
 @media screen and (min-width: 600px) {
@@ -122,11 +123,7 @@ p, li {
 
 @media screen and (min-width: 992px) {
   
-   .hero-video {
-      display: block;
-      width: 100%;
-      height: 20%;
-   }
+
 
    #tablet-header {
       display: none;
@@ -139,14 +136,13 @@ p, li {
    .events {
       display: flex;
       flex-wrap: wrap;
-      width: 50%;
+      width: 40%;
       margin:auto;
    }
 
    .boxes {
-      width: 20%;
+      width: 25%;
       margin-top: 1%;
-      align-self: flex-end;
    }
    
    #upcoming {
@@ -154,5 +150,28 @@ p, li {
       flex-basis: 100%;
    }
 
+   .hero, .hero-video {
+      height: 50vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-top: 0px;
+  }
 
+  .hero-video {
+   width: 100%;
+   height: 50vh;
+   object-fit: cover;
+   position: absolute;
+}
+
+.main-images {
+   display: flex;
+}
+
+.images {
+   margin: 1%;
+}
 }
