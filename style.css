@@ -212,10 +212,8 @@ p, li {
       align-items: center; 
    }
 
-
    /*setting width for the flex*/
    .flex-width {
       width: 33%;
    }
-
 }
