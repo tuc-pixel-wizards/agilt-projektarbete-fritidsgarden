@@ -212,11 +212,6 @@ p, li {
       align-items: center; 
    }
 
-   /*styling h2 with the class flex*/
-   .flex h2 {
-      flex-shrink: 0;
-      flex-basis: 100%;
-   }
 
    /*setting width for the flex*/
    .flex-width {
