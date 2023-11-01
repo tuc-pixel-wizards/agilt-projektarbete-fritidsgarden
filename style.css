@@ -34,6 +34,7 @@ main {
 h1, h2 {
    font-family: 'Indie Flower', cursive;
    margin-top: 20px;
+   cursor: default;
 }
 
 /*styling the event boxes*/
@@ -107,6 +108,7 @@ h2 {
 /*adjusting font size for p and li*/
 p, li {
    font-size: 25px;
+   cursor: default;
 }
 
 /*adjusting font size for dojan*/
